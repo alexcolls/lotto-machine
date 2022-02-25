@@ -7,7 +7,7 @@ import json
 import shutil
 from PIL import Image
 
-net = "mainnet-beta" # mainnet-beta or devnet
+net = "devnet" # mainnet-beta or devnet
 
 # metadata
 name = "SOLUCKY"
@@ -27,9 +27,9 @@ PROBABILITY = [ 50, 0, 25 ]
 
 PIXELS = 777
 
-TOTALCOLLECTION = 100
+TOTALCOLLECTION = 10
 
-LAST_NFTICKET = 0
+LAST_NFTICKET = 10
 
 def LuckyCat():
 
