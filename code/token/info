@@ -7,6 +7,7 @@ logo: https://raw.githubusercontent.com/quantium-rock/token/main/logo.png
 
 spl-token accounts
 spl-token mint 9bML8p4vbo9LvVnT6ZDgfC2dYoiJyh3RKycnobE4KrEV 10000
+spl-token mint 9bML8p4vbo9LvVnT6ZDgfC2dYoiJyh3RKycnobE4KrEV 10000
 spl-token transfer --fund-recipient 9bML8p4vbo9LvVnT6ZDgfC2dYoiJyh3RKycnobE4KrEV 10000 4vL2Fg5rb5DmXdJd2LpWvZxhJz3W6ZeKyzx4rtLypagw
 
 768

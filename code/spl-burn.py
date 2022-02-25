@@ -8,7 +8,7 @@ import os
 import subprocess
 
 key = "./key/solucky.json"
-print("\nMINT SOLLUCKY COIN:")
+print("\nBURN SOLUCKY COIN:")
 
 def check_balance():
     try:
@@ -25,14 +25,14 @@ def check_balance():
     return sol
 
 sol = check_balance()
-x = input("\nHow many SOLUCKY COIN do you wanna mint? ")
+x = input("\nHow many SOLUCKY COIN do you wanna burn? ")
 
 confirm = input("\nARE YOU F*** SURE?\n\nPRESS ENTER TO MAKE TRANSFER -> ")
-os.system("spl-token mint 9bML8p4vbo9LvVnT6ZDgfC2dYoiJyh3RKycnobE4KrEV "+x)
+os.system("spl-token burn 53Ck2VYgiCyj25uXFqD7KzCHokZFFp5gUHaXmY8pHUk7 "+x)
 
 final = check_balance()
 print("\nNetwork fee:")
-print(str(round(sol-float(x)-final,11)))
+print(str(round(sol-final,11)))
 
 input("\nEXIT -> ")
 print('\n\n')
