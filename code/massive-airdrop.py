@@ -8,6 +8,23 @@ whitelist = [
     #"BvTE4UkNgxiU2rVibWjU9wvXgDENFHXuf2HZ1Wj7p3qR", # trash
     #"FywjUkDvnUgUCAXPgjbmAmEap6R8oNdHhBxNiLnEeK4K", # quantium
     #"4vL2Fg5rb5DmXdJd2LpWvZxhJz3W6ZeKyzx4rtLypagw", # solucky
+    "3AWjgy9bVsBdUbubLDPR4hA7Bugs9qojXexPhE7FnNj6",
+    "FKUJN8DxBfxZubFJqeXH3isptCFffhqD7zuiTjr1fha8",
+    "7DYvNDy8GP72mftHvE5EaBMdX7wS18w8XxFPoHbWc4c4",
+    "3AWjgy9bVsBdUbubLDPR4hA7Bugs9qojXexPhE7FnNj6",
+    "C29TTHPkmNrps4rTwyTC8p9aMAo1csvGmetp7Zndb1Lh",
+    "3AWjgy9bVsBdUbubLDPR4hA7Bugs9qojXexPhE7FnNj6",
+    "CpThYY1c1gmg9BVFf9rGoXFJ8sAGMXv2E3AmWvJQEizf",
+    "3dFewcqSjuUabLcCVPf5fw6mCrfvnMYDcdi546wy3ZCv",
+    "3AWjgy9bVsBdUbubLDPR4hA7Bugs9qojXexPhE7FnNj6",
+    "3symPwDs5HPqnXnZXcFA12MVxLQnsh9gJBYSCJCcGPYy",
+    "6xy65xGuGJHkgXpG1RGVCWeWWruPQccctQyy92AYVcnC",
+    "9nHy4kEXtGnxV1HiZq7k3XZMzniheaZJP8PE2FU3Ecbq",
+    "B7uTrLjTWqWZW54dZKQHMLLQJaKmimTgnEcrAD2V41cD",
+    "6h2GqpU8GTuKgsWSQUuwYgbdqj9SiiBYJNBHRambnrSi",
+    "5xvXUgNVp7oHqndcq4qrwiJGugFk9HmR9fSD9kdneXBT",
+    "6AyRVR76YwMPErn4iHp6Cw2HqMrZLcpakJLYUJqqKJXV",
+    "HexcKLADDnx8o4J8yWkEBpj44yumnMEDBfpXh2EdqyKV",
     "ctLiDav1T57e2gMsrJCEWLsBx1WapDVFwqNjQc24Dw5",
     "8KoTW9WZTSczi2un3vvWxxLKWHVGZB6BkfK6iphXXPyV",
     "GbC1qBhFqJrx6ybFvVbtQhq1KTsiv88beKHKzf1rD95J",
