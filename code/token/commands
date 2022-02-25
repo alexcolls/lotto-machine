@@ -1,0 +1,15 @@
+
+# upload (./assets)
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload -e mainnet-beta -k ./solucky.json -cp ./config.json -c cache ./assets
+
+# update_candy_machine
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine -e mainnet-beta -k ./solucky.json -cp ./config.json -c cache
+
+# mint_one_token
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_one_token -e mainnet-beta -k ./solucky.json -cp -c cache
+
+# mint_multiple_tokens
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_multiple_tokens -e mainnet-beta -k ./solucky.json -cp -c cache --number 2
+
+# 
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts -h

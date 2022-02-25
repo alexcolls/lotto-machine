@@ -1,0 +1,48 @@
+{
+  "name": "S◎LUCKY #4",
+  "symbol": "S◎LUCKY",
+  "description": "SOLucky NFTicket ◎ The Solana onchain-lotto every f*** Friday! A Solana community-based project built-in the Solana blockchain. Are you a Lucky Cat? Visit https://soluckylotto.com to claim your reward.",
+  "edition": 4,
+  "image": "4.png",
+  "external_url": "S◎LUCKY",
+  "website": "https://soluckylotto.com",
+  "discord": "https://discord.gg/AA4sJBEX",
+  "twitter": "https://twitter.com/SOLuckyLotto",
+  "attributes": [
+    {
+      "trait_type": "NFTICKET",
+      "value": "3"
+    },
+    {
+      "trait_type": "LUCKYCAT",
+      "value": "WHITE CAT"
+    },
+    {
+      "trait_type": "EDITION",
+      "value": "GENESIS"
+    },
+    {
+      "trait_type": "GENERATION",
+      "value": "1"
+    },
+    {
+      "trait_type": "SUPPLY",
+      "value": "100"
+    }
+  ],
+  "dna": "a4a103f7443bc6368f63fd8ed14319bfcf3faaa3",
+  "properties": {
+    "files": {
+      "uri": "4.png",
+      "type": "image/png"
+    },
+    "category": "image",
+    "creators": [
+      {
+        "address": "4vL2Fg5rb5DmXdJd2LpWvZxhJz3W6ZeKyzx4rtLypagw",
+        "share": 100
+      }
+    ]
+  },
+  "seller_fee_basis_points": 3000
+}
