@@ -3,8 +3,8 @@
 # MIT license
 
 whitelist = [
-    "5TgxA2nDc1aMj62i1icdxQKVY8FDrw6a53BaeWFX1Cqs", # max2
-    "FxDXesUSdXxZeDfRz9NgHoZRXn71e3Guch7GFTRu9gUj", # max
+    "5TgxA2nDc1aMj62i1icdxQKVY8FDrw6a53BaeWFX1Cqs", # max
+    "FxDXesUSdXxZeDfRz9NgHoZRXn71e3Guch7GFTRu9gUj", # patri
     "BvTE4UkNgxiU2rVibWjU9wvXgDENFHXuf2HZ1Wj7p3qR", # trash
     "FywjUkDvnUgUCAXPgjbmAmEap6R8oNdHhBxNiLnEeK4K", # quantium
     "4vL2Fg5rb5DmXdJd2LpWvZxhJz3W6ZeKyzx4rtLypagw", # solucky

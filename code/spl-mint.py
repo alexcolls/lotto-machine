@@ -8,7 +8,7 @@ import os
 import subprocess
 
 key = "./key/solucky.json"
-print("\nMAKE A SOL TRANSFER:\n")
+print("\nMINT COINLUCKY COIN:")
 
 def check_balance():
     try:
@@ -25,11 +25,10 @@ def check_balance():
     return sol
 
 sol = check_balance()
-x = input("\nHow many SOL do you wanna send? ")
-w = input("\nPaste address and press enter to transfer -> ")
+x = input("\nHow many SOLUCKY COIN do you wanna mint? ")
 
 confirm = input("\nARE YOU F*** SURE?\n\nPRESS ENTER TO MAKE TRANSFER -> ")
-os.system("solana transfer --from "+key+" "+w+" "+x+" "+"--fee-payer "+key+" --allow-unfunded-recipient")
+os.system("spl-token mint 9bML8p4vbo9LvVnT6ZDgfC2dYoiJyh3RKycnobE4KrEV "+x)
 
 final = check_balance()
 print("\nNetwork fee:")
