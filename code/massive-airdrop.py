@@ -10,12 +10,14 @@ import os
 import subprocess
 import csv
 
-wallets = ''; ws = []
-with open('./db/wallets.csv', newline='') as csvfile:
-    wallets = csv.reader(csvfile, delimiter=' ', quotechar='|')
-    for row in wallets:
-        ws = ws.append(row)
-        print(', '.join(row))
+def wallets():
+    with open('./db/wallets.csv', newline='') as csvfile:
+        ws = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for row in ws:
+            #ws = ws.append(str(row))
+            #print(', '.join(row))
+            print(row)
+    return ws
 
 def sol():
     try:
@@ -31,7 +33,7 @@ def sol():
     print(sol)
     return sol
 
-def balances(): 
+def balances( ws ): 
     for w in ws:
         try:
             proc = subprocess.Popen(["solana", "balance", w], stdout=subprocess.PIPE, shell=True)
@@ -43,7 +45,7 @@ def balances():
         out = out.split(" ")[0]
         sol = round(float(out),2) 
 
-def airdrops(): 
+def airdrops( ws ): 
     for w in ws:
         if sol >= min_sol:
             n +=1
@@ -61,16 +63,22 @@ def q1(): return input('\ndo you wanna check balance? > y(yes) or ENTER -> ')
 def q2(): return input('\ndo you wanna make massive airdrops? y(yes) or ENTER -> ')
 def q3(): return input('\nhow many SOLUCKY TOKENS each airdrop? ')
 def q4(): return input('\nactivate min S◎L balance wallet? ')
-def confirm(): input('\nARE YOU F*** SURE? \nLFGO -> ')
+def confirm(): return input('\nARE YOU F*** SURE? \nLFGO -> ')
 def bye(): return input('\n< ALGO EXECUTED CORRECTLY >\n')
 
 def ans( que ):
     q = que
     if( q == "y" or q == "Y" or q == "yes" or q == "YES" ):
         return True
-        
-balances()
-q2 = q2()
+
+
+ws = wallets()
+
+if ans( q1() ):
+    print('go')
+    balances( ws )
+
+
 
 
 send = True
