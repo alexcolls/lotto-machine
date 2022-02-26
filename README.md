@@ -1,2 +1,2 @@
 # lotto-machine
-lotto-machine v.0
+lotto-machine v.1.0.
