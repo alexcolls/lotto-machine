@@ -65,10 +65,11 @@ def airdrops():
             print('\nTotal wallets: ', n)
             print('\n')
 
-def q1(): return input('\n> Do you wanna check wallets balances? > y(yes) or exit -> ')
-def q2(): return input('\n> Do you wanna make massive airdrops? y(yes) or exit -> ')
-def q3(): return input('\nhow many SOLUCKY TOKENS each airdrop? ')
-def q4(): return input('\nactivate min S◎L balance wallet? y(yes) or n(no) ')
+def q1(): return input('\n> Do you wanna check wallets balances? > y(yes) or enter -> ')
+def q2(): return input('\n> Do you wanna filter wallets by any min S◎L balance? y(yes) or n(no) ')
+def q3(): return input('\n> Insert min S◎L balance? y(yes) or n(no) ')
+def q4(): return input('\n>  Do you wanna make massive airdrops? y(yes) or enter -> ')
+def q4(): return input('\nhow many SOLUCKY TOKENS each airdrop? ')
 def confirm(): return input('\nARE YOU F*** SURE? \nenter to go -> ')
 def bye(): return input('\n< ALGO EXECUTED CORRECTLY >\n')
 
