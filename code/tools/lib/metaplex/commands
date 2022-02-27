@@ -1,0 +1,8 @@
+
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts upload -e devnet -k ./solucky.json -cp ./config.json -c cache ./assets
+
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts verify -e devnet -k ./solucky.json -cp ./config.json -c cache
+
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_one_token -e devnet -k ./solucky.json -cp -c cache
+
+ts-node ./metaplex/js/packages/cli/src/candy-machine-v2-cli.ts mint_multiple_tokens -e devnet -k ./solucky.json -cp -c cache --number 2
