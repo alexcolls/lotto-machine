@@ -1,8 +1,8 @@
 {
-  "price": 0.3,
+  "price": 0.01,
   "number": 100,
   "gatekeeper": null,
-  "solTreasuryAccount": "AogBifsqPCaQvfVd6qDopSKztiSgHn6k2HeVKcWw3Z7Z",
+  "solTreasuryAccount": "GTEEoCDgo4SNqiVNmmgyvrjD1kZ4WqY9CutjfGgSpNHU",
   "splTokenAccount": null,
   "splToken": null,
   "goLiveDate": "27 Feb 2022 23:00:00 GMT",
